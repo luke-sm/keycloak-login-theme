@@ -29,7 +29,7 @@ body {
   font-family: 'Ubuntu', sans-serif;
 }
 
-#kc-login{
+#kc-login, #kc-pw-resub{
   cursor: pointer;
   border-radius: 5px;
   color: #fff;
@@ -51,7 +51,7 @@ body {
   background-image: url(../img/logo.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: 50% 25%;
+  background-position: 50% 16%;
   background-size: 120px 120px;
   width: 400px;
   height: 500px;
@@ -83,6 +83,31 @@ body {
   margin: 150px auto;
 }
 
+#kc-reset-password-form{
+  background-color: #FFFFFF;
+}
+
+
+.forgot {
+text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+color: #283d8a;
+padding-top: 10px;
+}
+
+.altlog {
+text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+color: #283d8a;
+}
+
+.logo {
+width: 150px;
+height: 150px;
+}
+
+.logo-cont {
+text-align: center;
+padding-top: 20px;
+}
 /*
 width: 76%;
 box-sizing: border-box;
@@ -90,5 +115,16 @@ border: 2px solid rgba(0, 0, 0, 0.02);
 margin-bottom: 50px;
 margin-left: 46px;
 margin-bottom: 27px;
+
+
+
+
+.icon {
+background: url('../img/uol logo.png');
+background-size: contain;
+height: 18px;
+width: 18px;
+display: inline-block;
+}
 
 */
