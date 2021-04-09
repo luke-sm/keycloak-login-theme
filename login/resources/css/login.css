@@ -108,6 +108,16 @@ height: 150px;
 text-align: center;
 padding-top: 20px;
 }
+
+.icon {
+background: url('images/uol logo.png');
+background-size: contain;
+height: 18px;
+width: 18px;
+display: inline-block;
+}
+
+
 /*
 width: 76%;
 box-sizing: border-box;
