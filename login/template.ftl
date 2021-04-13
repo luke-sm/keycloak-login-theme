@@ -80,11 +80,11 @@
                     <div class="col-md-10">
                         <#nested "show-username">
                         <div id="kc-username" class="${properties.kcFormGroupClass!}">
-                            <label id="kc-attempted-username">${auth.attemptedUsername}</label>
+                            <label id="kc-attempted-username"></label>
                             <a id="reset-login" href="${url.loginRestartFlowUrl}">
                                 <div class="kc-login-tooltip">
                                     <i class="${properties.kcResetFlowIcon!}"></i>
-                                    <span class="kc-tooltip-text">${msg("restartLoginTooltip")}</span>
+                                    <span class="kc-tooltip-text"></span>
                                 </div>
                             </a>
                         </div>
@@ -93,11 +93,11 @@
             <#else>
                 <#nested "show-username">
                 <div id="kc-username" class="${properties.kcFormGroupClass!}">
-                    <label id="kc-attempted-username">${auth.attemptedUsername}</label>
+                    <label id="kc-attempted-username"></label>
                     <a id="reset-login" href="${url.loginRestartFlowUrl}">
                         <div class="kc-login-tooltip">
                             <i class="${properties.kcResetFlowIcon!}"></i>
-                            <span class="kc-tooltip-text">${msg("restartLoginTooltip")}</span>
+                            <span class="kc-tooltip-text"></span>
                         </div>
                     </a>
                 </div>
@@ -106,6 +106,10 @@
       </header>
       <div id="kc-content">
         <div id="kc-content-wrapper">
+
+          <div class="logo-cont">
+          <img class="logo" src="../resources/img/logo.png" alt="logo">
+          </div>
 
           <#-- App-initiated actions should not see warning messages about the need to complete the action -->
           <#-- during login.                                                                               -->

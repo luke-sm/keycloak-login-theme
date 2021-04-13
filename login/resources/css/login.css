@@ -1,5 +1,4 @@
 body {
-  background: url("../img/lar background.jpg") no-repeat center center fixed;
   background-color: #e6e8f0;
   background-size: cover;
   height: 100%;
@@ -109,13 +108,6 @@ text-align: center;
 padding-top: 20px;
 }
 
-.icon {
-background: url('images/uol logo.png');
-background-size: contain;
-height: 18px;
-width: 18px;
-display: inline-block;
-}
 
 
 /*
