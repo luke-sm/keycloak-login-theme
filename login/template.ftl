@@ -108,7 +108,7 @@
         <div id="kc-content-wrapper">
 
           <div class="logo-cont">
-          <img class="logo" src="../resources/img/logo.png" alt="logo">
+          <img class="logo" src="img/logo.png">
           </div>
 
           <#-- App-initiated actions should not see warning messages about the need to complete the action -->
